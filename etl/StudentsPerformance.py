@@ -37,4 +37,6 @@ dato = pd.read_csv(df_exams)
 # print(dato.info())
 # print(dato.describe())
 
-
+# -------FUNCIONES EN PANDAS
+# len -> Obtiene el tamaño de dataframe(filas)
+# print(len(dato))
