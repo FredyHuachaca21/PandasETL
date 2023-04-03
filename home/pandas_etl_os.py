@@ -14,4 +14,5 @@ dato = dato.set_index("id")
 
 #Query
 sql_query = "SELECT * FROM dato WHERE age > 30"
-print(ps.sqldf(sql_query, {"dato": dato}))
+# print(ps.sqldf(sql_query, {"dato": dato}))
+# print(ps.sqldf(sql_query, locals()))
