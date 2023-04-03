@@ -30,3 +30,11 @@ dato = pd.read_csv(df_exams)
 
 # Tipo de dato de cada columna
 # print(dato.dtypes)
+
+# ------- MÉTODOS DE PANDAS
+
+# print(dato.head())
+# print(dato.info())
+# print(dato.describe())
+
+
